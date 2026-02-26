@@ -1,0 +1,25 @@
+## Lab Infrastructure & Virtualization Setup
+
+### Hypervisors  
+A **hypervisor** is a software layer that creates and manages virtual machines by allocating hardware resources—CPU, memory, storage, and networking—to each guest system. It sits between the physical hardware and the virtual environments, ensuring each VM runs independently while sharing the same host machine.
+
+### Virtual Machines  
+A **virtual machine (VM)** is a fully isolated computing environment that behaves like a standalone computer but operates on virtualized hardware. Each VM has its own operating system, applications, and configurations, allowing multiple systems to run on a single physical device without interfering with one another.
+
+### Importance of Isolation in Cybersecurity  
+Isolation is essential because it prevents activities inside a VM—such as malware testing, configuration changes, or software experimentation—from affecting the host system or the broader network. This containment reduces risk, protects critical resources, and ensures that mistakes or malicious behavior remain confined to a controlled environment.
+
+### Virtualization and the CIA Triad  
+Virtualization directly supports **Confidentiality**, **Integrity**, and **Availability**. Confidentiality is strengthened because sensitive tools and data remain contained within the VM, reducing exposure to the host system. Integrity is protected through snapshots and rollback features that preserve known‑good states and prevent unauthorized changes. Availability improves because virtualization allows rapid recovery, flexible resource allocation, and the ability to run multiple secure environments simultaneously. Together, these capabilities make virtualization a foundational component of secure cybersecurity labs and enterprise systems.
+
+**APA‑style citation:**  
+National Institute of Standards and Technology. (2020). *Guide to security for full virtualization technologies (NIST SP 800‑125A Rev. 1).* U.S. Department of Commerce.
+
+---
+
+## Reflection
+
+Isolation is important when testing software or malware because it prevents harmful code from escaping into the main system or network. It allows analysts to observe behavior safely without risking real‑world damage. Virtualization supports secure experimentation by providing disposable environments, snapshots, and the ability to reset systems instantly after testing. It also enables multiple configurations to be tested without needing additional physical machines. Today’s material aligns most closely with the **Cloud** and **Network** cybersecurity domains, since virtualization is foundational to cloud infrastructure and relies heavily on virtual networking. Understanding these concepts builds a strong foundation for secure system design and controlled cybersecurity testing.
+
+---
+
