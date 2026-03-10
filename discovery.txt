@@ -1,0 +1,5 @@
+Log Path: /var/log/syslog
+Mission Path: /opt/alpha/mission.txt
+Mission Secret: [paste the mission message]
+Token Path: /var/tmp/.blackout/token.txt
+Token Secret: 9948-ABX-77
