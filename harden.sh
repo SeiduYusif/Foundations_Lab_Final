@@ -1,6 +1,5 @@
 #!/bin/bash
 # harden.sh
-# Dummy-mode hardening script
 
 echo "=== HARDENING STARTED ==="
 
