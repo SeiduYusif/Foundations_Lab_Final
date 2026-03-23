@@ -1,0 +1,18 @@
+Address: 10.50.50.150
+Netmask: 255.255.255.0 = 24
+Wildcard: 0.0.0.255
+Network: 10.50.50.50.0/24
+HostMin: 10.50.50.1
+HostMax: 10.50.50.254
+Broadcast: 10.50.50.255
+Hosts/Net: 254
+
+/27 Subnets for 10.50.50.0/24
+Network: 10.50.50.0  Broadcast: 10.50.50.31
+Network: 10.50.50.32 Broadcast: 10.50.50.63
+Network: 10.50.50.64 Broadcast: 10.50.50.95
+Network: 10.50.50.96 Broadcast: 10.50.50.127
+Network: 10.50.50.128 Broadcast: 10.50.50.159
+Network: 10.50.50.160 Broadcast: 10.50.50.191
+Network: 10.50.50.192 Broadcast: 10.50.50.223
+Network: 10.50.50.224 Broadcast: 10.50.50.225
