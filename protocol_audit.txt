@@ -1,0 +1,3 @@
+Google Real IP: 142.250.65.78
+Hidden Service Port: 631
+Hidden Service Server Header: CUPS/2.4 IPP/2.1
