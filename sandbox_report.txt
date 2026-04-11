@@ -4,7 +4,7 @@ Operator: vboxuser
 ==================================================
 
 QUESTION 1: Did the ping to google.com succeed or fail in Host-Only mode?
-ANSWER: The ping succeeded and returned live replies (time=9–11 ms). This shows the VM still has internet access and the sandbox is not yet isolated in Host‑Only mode.
+ANSWER: The ping to google.com failed with "Temporary failure in name resolution."This confirms the VM cannot reach the internet.meaning the sandbox is successfully air-gapped in Host-Only mode.
 
 QUESTION 2: Why must a SOC analyst NEVER use "Bridged" mode when detonating unknown malware?
-ANSWER: Bridged mode gives the VM a real IP address on the same LAN as my home network. Malware detonated in this mode could scan, map, or attack other devices on the network. Host‑Only mode prevents this by isolating the VM from all external systems.
+ANSWER: Bridged mode puts the VM directly on my home network with a real LAN IP.If malware detonates in Bridged mode, it could scan or attack other devices on my network.Host-Only mode isolates the VM so malware cannot escape the sandbox.
