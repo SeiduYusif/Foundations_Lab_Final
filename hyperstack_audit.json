@@ -2,7 +2,7 @@
   "operator": "SY",
   "host_ip": "10.0.2.15",
   "vm_sandbox_ip": "192.168.56.102",
-  "web_container_id": "PUT-YOUR-WEB-CONTAINER-ID-HERE",
+  "web_container_id": "ac5677bbacdd",
   "isolation_test": "PASSED",
   "persistence_verified": true
 }
